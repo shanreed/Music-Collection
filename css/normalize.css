@@ -1,0 +1,165 @@
+
+.heading {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.heading h1 {
+  color: yellow;
+  font-size: 9rem;
+}
+.description button {
+  background-color: blue;
+  border: 2px inset yellow;
+  color: yellow;
+  border-radius: 50%;
+  padding: 30px;
+}
+.info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  background-image: linear-gradient(#FFC501, #d0d0f3);
+  border-radius: 20px 20px 10px 10px;
+  box-shadow: 10px 10px 5px #6b6b08;
+}
+.info p {
+  color: #FE0000;
+  font-size: 2rem;
+  width: 80%;
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 2px 2px 4px #8d8d16;
+}
+.buttons {
+  width: 60%;
+  margin-top: 20px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttons a {
+  text-decoration: none;
+  color: yellow;
+}
+.buttons a:hover {
+  color: blue;
+}
+.buttons button {
+  padding: 10px;
+  border: 2px inset yellowgreen;
+  border-radius: 45%;
+  background-color: blue;
+}
+.buttons button:hover {
+  background-color: yellow;
+  border: 2px solid blue;
+}
+
+.collection-heading {
+  color: yellow;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+}
+table,
+th,
+td {
+  border: 5px inset yellow;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 5px;
+  color: white;
+  font-size: 2rem;
+}
+.queries {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.queries a {
+  text-decoration: none;
+  color: yellow;
+}
+.queries a:hover {
+  color: blue;
+}
+#newMusic {
+  color: green;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.explore {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  font-size: 2rem;
+}
+.explore h2 {
+  font-size: 4rem;
+  padding-bottom: 10px;
+}
+.explore a {
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+.explore a:hover {
+  color: black;
+}
+#url {
+  color: green;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  margin: 0 auto;
+  background-color: yellow;
+  border: 2px inset blue;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+form h2 {
+  color: blue;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 20px;
+}
+form input {
+  width: 80%;
+  height: 50px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px inset blue;
+  align-self: center;
+}
+form button {
+  padding: 20px;
+  width: 30%;
+  border: 2px inset blue;
+  border-radius: 50%;
+  align-self: center;
+  color: yellow;
+  background-color: blue;
+  margin-bottom: 10px;
+}
+button {
+  background-color: blue;
+  border: 2px inset yellow;
+  color: yellow;
+  border-radius: 50%;
+}
+button a {
+  text-decoration: none;
+}
