@@ -224,3 +224,6 @@ button:active:after {
   transition: 0s
 }
 
+.ajax {
+  color: yellow;
+}
