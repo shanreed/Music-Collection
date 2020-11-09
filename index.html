@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Brown Girl Music</title>
+    <script src="https://kit.fontawesome.com/20f9ced931.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="hiphop.xml">
     <link rel="stylesheet" type="text/css" href="pop.xml">
@@ -20,11 +21,13 @@
       <img class = 'bgimage' src = '/images/music.png'/>
     </div>
     <div class='container'>
-      <!-- Mobile hamburger  Menu Icon (Mobile Only) -->
-<button onclick="mobileMenu" id="menu-link" class="mobile-menu"><i class="fas fa-bars"></i></button>
-<!-- Mobile Menu Container -->
-<div id="menu-display"></div>
-        <div class = 'nav'>
+      <button id = 'menu-button' 
+        class = 'menu-button' 
+      >
+          <i class="fas fa-bars"></i>
+      </button>
+      <div class = menu-content>
+        <div id = 'menu' class = 'menu nav'>
             <nav >
                 <div class = 'dropdown'>
                   <a href = "#">Reggae</a>
@@ -75,13 +78,13 @@
           <div class = 'info'>
             <p>A collection of music that feels the souls of brown girls everywhere.</p>
              <div class = 'buttons'>
-                <button><a href = "request.html">Sign In</a></button>
-                <button><a href = "request.html">Sign Up</a></button>
-                <button><a href = "html/explore.html">Explore</a></button>
+                <button class = 'button-button'><a href = "request.html">Sign In</a></button>
+                <button class = 'button-button'><a href = "request.html">Sign Up</a></button>
+                <button class = 'button-button'><a href = "html/explore.html">Explore</a></button>
               </div> 
           </div>
         </div>
-      
+      </div>
       <!-- <footer>
           <div>
               <button onclick = 'displayURLFunction()'>Get Page URL</button>

@@ -217,3 +217,25 @@ function loadRapXMLDoc() {
   }
 
 
+
+//Hamburger Menu
+  function toggleMenu() {
+    //create a variable and set it equal to the menu 
+    let menu = document.getElementById('menu');
+    //toggle logic
+        //When user clicks
+            // if the menu style is display: flex
+    if (menu.style.display === 'flex'){
+            //change the menu style is display: none
+        menu.style.display = 'none';
+    } else {
+        //otherwise menu style is display: flex
+        menu.style.display = 'flex'
+    }
+     
+}
+
+//create a variable and set it equal to the menu-button
+ let menuButton = document.getElementById('menu-button')
+//add click event listener to the button, and pass it the toggleMenu function
+ menuButton.addEventListener('click', toggleMenu)

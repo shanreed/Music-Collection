@@ -58,8 +58,7 @@ html {
 }
 
 .page-container {
-  margin: 0 auto;
-  width: 80%;
+
   
 }
 
@@ -83,20 +82,32 @@ html {
 
 .container {
   position: relative;
-  margin: 0 auto;
-  width: 80%;
-  flex-direction: column;
+  
+}
+
+.menu-content {
+  /* display: flex; */
+}
+
+@media(min-width: 900px) {
+  .menu-button {
+    display: none;
+
+  }
+
 }
 
 .nav {
   margin-top: 1rem;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   padding-bottom: 50px;
+ 
 }
 
 .nav nav {
   display: flex;
+  flex-direction: column;
   width: 100%;
   justify-content: space-between;
 }
@@ -174,12 +185,13 @@ html {
   margin-left: -1.5rem;
   margin-bottom: 10rem;
 }
-button a{
+
+.button-button a{
   text-decoration: none;
   color: rgb(34, 9, 9);
 }
 
-button {
+.button-button {
   position: relative;
   cursor: pointer;
   font-size:2.4rem;
@@ -198,13 +210,13 @@ button {
   overflow: hidden;
 }
 
-button:hover{
+.button-button:hover{
  background:#2CA7CE;
  box-shadow:0px 2px 10px 5px #D9007E;
  color:#000;
 }
 
-button:after {
+.button-button:after {
   content: "";
   background: #f1c40f;
   display: block;
@@ -217,7 +229,7 @@ button:after {
   transition: all 0.8s
 }
 
-button:active:after {
+.button-button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
@@ -227,3 +239,5 @@ button:active:after {
 .ajax {
   color: yellow;
 }
+
+
